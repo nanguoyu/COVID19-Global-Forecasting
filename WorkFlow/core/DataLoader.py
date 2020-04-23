@@ -26,8 +26,8 @@ class DataLoader(object):
                                       int((data_China.iloc[i - 1].values[1] + data_China.iloc[i + 1].values[1]) / 2)]
         # TODO Random splitting
         self._data = data_China.values
-        self._train = data_China.values[:int(len(self._data) * split)]
-        self._val = data_China.values[int(len(self._data) * split):]
+        self._train = self._data[:int(len(self._data) * split)]
+        self._val = self._data[int(len(self._data) * split):]
         self._len_train = len(self._train)
         self._len_val = len(self._val)
         print("[DataLoader]: There are ", self._len_train, " examples for training and ", self._len_val, " for validation")
