@@ -12,10 +12,9 @@ Network Structure are configured in JSON file.
 TODO
 
 - [x] Data collection
-- [ ] Data preprocess
+- [x] Data preprocess
 - [ ] Design Model
-    - [ ] RNN
-    - [ ] LSTM
-    - [ ] GRU
+    - [x] LSTM
+    - [ ] seq2seq
     - [ ] Attention based
     - **Note** We may not implement all above model finally.
