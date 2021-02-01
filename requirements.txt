@@ -3,6 +3,6 @@ tqdm==4.56.0
 lxml==4.6.2
 pandas==1.2.1
 Keras==2.4.3
-numpy==1.19.5
+numpy==1.20.0
 requests==2.25.1
 yagmail==0.14.245
