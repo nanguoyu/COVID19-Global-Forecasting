@@ -1,6 +1,6 @@
 matplotlib==3.3.4
 tqdm==4.59.0
-lxml==4.6.2
+lxml==4.6.3
 pandas==1.2.3
 Keras==2.4.3
 numpy==1.20.1
